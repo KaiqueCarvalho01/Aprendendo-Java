@@ -1,3 +1,6 @@
+//Dados Primitivos são tipos de dados que de maneira geral não recebem métodos de maneira padrão, ou seja, são tipos de dados que não são objetos
+//Dados não primitivos são tipos de dados em que pode-se colocar métodos para fazer alterações na variavel sem que seja mudado seu escopo, ou seja, são objetos
+
 package TiposdeDados;
 
 public class DadosPrimitivos {
