@@ -21,5 +21,14 @@ public class Main {
         Sasuke.idade = 18;
         Sasuke.aldeia = "Folha";
 
+        //Aplicando metodos ao meu objeto
+        Sasuke.SharinganAtivado();
+        String chamandoMetodo = Sasuke.euSouUmNinja(); //Chamando o método euSouUmNinja, é necessário armazenar em uma variável
+        System.out.println(chamandoMetodo);
+
+
+        int quantoTempoFalta = Sasuke.anosParaSeTronarHokage(20);
+        System.out.println("Faltam " + quantoTempoFalta + " anos para se tornar Hokage");
+
     }
 }
