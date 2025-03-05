@@ -23,5 +23,20 @@ public class main {
         Sakura.aldeia = "Folha";
         Sakura.AtivarCura();
 
+        //Objeto 4
+        Hyuga Hinata = new Hyuga();
+        Hinata.nome = "Hinata";
+        Hinata.idade = 17;
+        Hinata.aldeia = "Folha";
+        Hinata.Byakugan();
+
+        Boruto Boruto = new Boruto();
+        Boruto.nome = "Boruto";
+        Boruto.idade = 12;
+        Boruto.aldeia = "Folha";
+        Boruto.Byakugan();
+        Boruto.AtivarOKarma();
+        Boruto.AtivarJougan();
+
     }
 }
